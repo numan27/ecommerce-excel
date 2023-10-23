@@ -1,0 +1,289 @@
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.navBar {
+    background-color: rgb(17 24 39) !important;
+}
+
+.navLink {
+    border-bottom: 4px solid rgb(17 24 39);
+    transition: all 0.3s ease-in-out;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.navLink .active,
+.navLink:focus,
+.navLink:hover {
+    border-color: #F4A640;
+    color: #F4A640;
+}
+
+
+.text_primary {
+    color: #F4A640 !important;
+}
+.bg_primary {
+    background-color: #F4A640 !important;
+}
+.bg_secondary {
+    background-color: #00A3DA !important;
+}
+.bg_secondary-hover:hover {
+    background-color: #00A3DA !important;
+}
+
+.btn_primary {
+    background-color: #F4A640 !important;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #F4A640;
+}
+
+.btn_primary:hover {
+    background-color: rgb(17 24 39) !important;
+    color: #F4A640 !important;
+    border-color: #fff;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.primaryBtn {
+    background-color: #00A3DA !important;
+    color: #fff !important;
+}
+
+.primaryBtn:hover {
+    background-color: #0687b2 !important;
+}
+
+.padding-60 {
+    padding: 60px;
+}
+
+/* Video */
+
+.video_Section {
+    /* background-image: url(/public/images/sec2BG.45011b27.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: bottom;
+}
+
+.icon_advantage {
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+}
+
+.advP {
+    font-size: 15px !important;
+    color: #d0e7ff !important;
+    letter-spacing: 1px;
+}
+
+.advP_2 {
+    font-size: 15px !important;
+}
+
+.react-player__preview {
+    height: 93% !important;
+    cursor: pointer !important;
+    border-radius: 30px !important;
+}
+.videoWrapper{
+    border-radius: 30px !important;
+}
+
+.react-player__shadow {
+    background: #F4A640 !important;
+    width: 90px !important;
+    height: 90px !important;
+    display: flex;
+    margin-left: 10px !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    font-size: 80px !important;
+    background-color: #00A3DA !important;
+    width: 80px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+/* at Live */
+.css-vubbuv {
+    font-size: 80px !important;
+    background-color: #F4A640 !important;
+    width: 80px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+/* Logo rotate */
+
+.logoRotate {
+    overflow: hidden;
+    transition-duration: 0.9s;
+    transition-property: transform;
+}
+.logoRotate:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+/* .instaBg{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    transition: all 0.3s ease-in-out !important;
+} */
+
+.social button:hover{
+    background-color: #F4A640;
+    background: #F4A640;
+    color: #fff;
+}
+.social button{
+    transition: all 0.3s ease-in-out; 
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #F4A640 !important;
+}
+
+@media screen and (max-width: 600px) {
+    .padding-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #mapBox div:first-child {
+        position: relative !important;
+        width: 300px !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .flexBox {
+        display: flex !important;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+    .flexRowMobile {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+    }
+    #mapBox div:first-child {
+        position: relative !important;
+        width: 450px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .navLink {
+        border-bottom: none;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .tableWrapper{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+
+/* About Page */
+
+.heading_border{
+    border-bottom: 6px solid #F4A640;
+}
+.heading_border_blue{
+    border-bottom: 6px solid #00A3DA;
+}
+.heading_border_white{
+    border-bottom: 6px solid #fff;
+}
+.heading_border_black{
+    border-bottom: 6px solid #000;
+}
+
+/* Courses */
+
+.chakra-collapse{
+    margin-top: 20px;
+}
+.rounded_md{
+    border-radius: 6px;
+}
+
+
+/* Contact */
+
+.socialContact span{
+    transition: all 0.3s ease-in-out;
+}
+#mapBox div:first-child {
+    position: relative !important;
+    width: 600px;
+}
+
+/* Services */
+
+.servicesHero{
+    background-image: url(/src/assets/img/services_bg.png);
+    background-size: cover;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+}
+.serviceCard:hover h5{
+    color: #F4A640 !important;
+}
+.serviceCard{
+    transition: all 0.3s ease-in-out;
+}
+.serviceCard h5{
+    transition: all 0.3s ease-in-out;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 50px !important;
+}
+
+.slick-next {
+    right: 5px !important;
+}
+.slick-dots li button:before {
+    font-size: 20px !important;    
+}
+.slick-dots {
+   bottom: -40px !important;
+
+}
+.genericLink:hover svg{
+    transform: translateX(0.35rem);
+    transition: all 0.2s ease-in-out;
+}
